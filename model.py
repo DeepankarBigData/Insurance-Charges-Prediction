@@ -19,7 +19,7 @@ model = DecisionTreeRegressor(random_state=42)
 mod = model.fit(x_train, y_train)
 
 
-# y_pred= model.predict(x_test)
+# y_pred= mod.predict(x_test)
 
 pickle.dump(mod, open("mod.pkl", "wb"))
 
