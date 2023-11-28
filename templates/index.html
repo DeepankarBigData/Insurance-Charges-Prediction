@@ -1,1 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Insurance Charges Prediction</title>
+    <style>
+            body {
 
+                font-family: Arial, sans-serif;
+                margin: 50px;
+        }
+
+        h1 {
+            background-color: aqua;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        label {
+            font-weight: bold;
+            margin-bottom: 10px;
+            margin-top: 10px;
+            font-size: 20px;
+
+
+        }
+
+        input[type="number"],
+        select {
+
+            width: 300px;
+            padding: 5px;
+            margin-bottom: 22px;
+
+
+        }
+
+
+        input[type="submit"] {
+            width: 150px;
+            padding: 10px;
+            color: black;
+            border: 5;
+            cursor: pointer;
+            margin-top: 20px;
+            margin-bottom: 20px;
+
+
+        }
+
+        .result {
+            text-align: center;
+            margin-top: 20px;
+
+
+        }
+
+
+  .result {
+    background-color: yellow;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+<!--    font-size: 28px-->
+  }
+
+  .result p {
+    font-weight: bold;
+    font-size: 22px;
+    color: #333333;
+    margin: 0;
+  }
+
+    </style>
+</head>
+<body>
+    <h1>Insurance Charges Prediction</h1>
+
+    <form action="/predict" method="post">
+        <label for="age">Age:</label>
+        <input type="number" name="age" step="any" required>
+
+        <label for="sex">Sex:</label>
+        <input type="text" name="sex" step="any" required>
+
+        <label for="bmi">BMI:</label>
+        <input type="number" name="bmi" step="any" required>
+
+        <label for="children">Number of Children:</label>
+        <input type="number" name="children" step="any" required>
+
+        <label for="smoker">Smoker:</label>
+        <input type="text" name="smoker" step="any" required>
+
+        <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+    </form>
+
+
+<!--<div class="result">-->
+<!--  <p>The predicted insurance cost is: <span id="prediction">{{ prediction }}</span> dollars</p>-->
+<!--</div>-->
+
+<!--    {% if prediction %}-->
+
+    <div class="result">
+        <p>The predicted insurance cost is:  {{  prediction  }} dollars</p>
+    </div>
+
+<!--    {% endif %}-->
+</body>
+</html>
