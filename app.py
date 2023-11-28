@@ -2,10 +2,11 @@ from flask import Flask, render_template, request
 import pickle
 import pandas as pd
 from model import model,mod
-app = Flask(__name__)
+import joblib as joblib
 
-# Load the trained model
-# model = pickle.load(open("mod.pkl", "rb"))
+
+model = joblib.load('mod.pkl')
+app = Flask(__name__)
 
 
 @app.route('/')
@@ -39,10 +40,9 @@ def predict():
     inputs = [float(i) for i in input_data]
 
     # Make the prediction using the loaded model
-    prediction = mod.predict([inputs])
+    prediction = model.predict([inputs])
 
     return render_template('index.html', prediction=prediction)
-
 
 if __name__ == '__main__':
     app.run(debug=True,host ='0.0.0.0')
