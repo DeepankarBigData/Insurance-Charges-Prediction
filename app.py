@@ -1,11 +1,11 @@
 from flask import Flask, render_template, request
 import pickle
 import pandas as pd
-
+from model import model
 app = Flask(__name__)
 
 # Load the trained model
-model = pickle.load(open("mod.pkl", "rb"))
+# model = pickle.load(open("mod.pkl", "rb"))
 
 
 @app.route('/')
