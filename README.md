@@ -46,11 +46,11 @@ If you find a bug (the website couldn't handle the query and / or gave undesired
 If you'd like to request a new function, feel free to do so by opening an issue here. Please include sample queries and their corresponding results.
 
 ## Used Technologies <a name="used-technologies"></a>
-![Local Image](img/python.png)
-![Local Image](img/Numpy.png)
-![Local Image](img/pandas.png)
-![Local Image](img/flask.png)
-![Local Image](img/scikitlearn.png)
+![Local Image](templates/python.png)
+![Local Image](templates/Numpy.png)
+![Local Image](templates/pandas.png)
+![Local Image](templates/flask.png)
+![Local Image](templates/scikitlearn.png)
 
 ## Appendix <a name="appendix"></a>
 - Additional information.
