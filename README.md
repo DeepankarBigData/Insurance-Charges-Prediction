@@ -19,7 +19,7 @@ https://insurance-charges-prediction321.onrender.com/
 ![Alt Text](templates/insurance.jpeg)
 ![Alt Text](templates/medical.jpeg)
 ![Alt Text](templates/doc.gif)
-- Link for web application: https://www.youtube.com/watch?v=NWE8437cxeM
+- Demo for web application: https://www.youtube.com/watch?v=NWE8437cxeM
 
 ## Overview <a name="overview"></a>
 - Overview of the web application.
