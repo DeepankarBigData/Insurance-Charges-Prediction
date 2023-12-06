@@ -19,14 +19,14 @@ https://insurance-charges-prediction321.onrender.com/
 ![Alt Text](templates/insurance.jpeg)
 ![Alt Text](templates/medical.jpeg)
 ![Alt Text](templates/doc.gif)
-- Link for web application:
+- Link for web application: https://www.youtube.com/watch?v=NWE8437cxeM
 
 ## Overview <a name="overview"></a>
 - Overview of the web application.
 
 
 ## Project Goal <a name="project-goal"></a>
-This complete project is made as a part of PG Diploma in Big Data Analytics as a final Project at C-DAC HYDERABAD.
+This complete project is made as a part of E-core Data analytics.
 
 ## Technical Aspects <a name="technical-aspects"></a>
 The whole project has been divided into three parts. These are listed as follows :
