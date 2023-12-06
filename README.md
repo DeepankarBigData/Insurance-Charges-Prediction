@@ -17,7 +17,7 @@ https://insurance-charges-prediction321.onrender.com/
 
 ## Demo <a name="demo"></a>
 ![Alt Text](templates/insurance.jpeg)
-![Alt Text](templates/medical.jpg)
+![Alt Text](templates/medical.jpeg)
 ![Alt Text](templates/doc.gif)
 - Link for web application:
 
